@@ -1,4 +1,4 @@
-import google.colab
+import google
 # Import necessary libraries
 import numpy as np  # For numerical operations with arrays
 import pandas as pd  # For data manipulation and analysis
