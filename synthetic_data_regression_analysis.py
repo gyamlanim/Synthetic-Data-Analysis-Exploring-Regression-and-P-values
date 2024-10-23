@@ -1,4 +1,3 @@
-import google
 # Import necessary libraries
 import numpy as np  # For numerical operations with arrays
 import pandas as pd  # For data manipulation and analysis
@@ -8,10 +7,8 @@ from sklearn.linear_model import LinearRegression  # For performing linear regre
 from sklearn.preprocessing import PolynomialFeatures  # For creating polynomial features
 from sklearn.metrics import mean_squared_error  # For evaluating the model performance
 import statsmodels.api as sm  # For Ordinary Least Squares (OLS) regression
-from google.colab import files  # For uploading files in Google Colab
 
 # Step 1: Upload the CSV file and load it into a pandas DataFrame
-uploaded = files.upload()
 df = pd.read_csv('sample1.csv')
 
 # Step 2: Initial exploration of the dataset
